@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+div h1{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+hr{
+    float: left;
+    width: 50%;
+    color: lightgrey;
+    margin-right: 100%;
+}
+
 img{
     width: 25%;
+    margin: 15px;
 }

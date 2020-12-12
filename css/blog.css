@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%22");
+
+.wrapper
+{
+	padding-bottom: 30px;
+}
+
+.divider
+{
+	position: relative;
+    margin-top: 40px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+.caja_principal{
+    border: 3px solid #bdc3c7;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.caja_principal{
+    border: 10px solid #bdc3c7;
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 10px;
+}
+
+nav{
+    margin-top: 10px;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+    margin-left: 5%;
+}
+
+.cajas{
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    padding-left: 15px ;
+    width: 20%;
+    background-color: grey;
+    text-align: center;
+    transition: 0.4s;
+   
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: lightgrey;
+}
+
+h1{
+    color: #3498db;
+}
+
+.introduccion{
+    border-left: 3px solid grey;
+}

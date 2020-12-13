@@ -1,0 +1,26 @@
+.caja{
+    flex-direction: row;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+body{
+    margin: 0;
+    background-color: orange;
+}
+.caja div{
+    text-align: center;
+}
+i{
+    margin-right: 20%;
+}
+span{
+    margin-right: 15%;
+    transition: 0.1s;
+}
+span:hover{
+    color: grey;
+}
